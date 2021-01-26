@@ -15,7 +15,7 @@ References
    The Journal of Chemical Physics 148 (24), 241709. 2018.
 """
 
-from schnetpack.representation.schnet import SchNet, SchNetInteraction
+from schnetpack.representation.schnet import SchNet, SchNetInteraction, VoxelSchNet, VoxelSchNetInteraction
 from schnetpack.representation.hdnn import (
     BehlerSFBlock,
     StandardizeSF,
